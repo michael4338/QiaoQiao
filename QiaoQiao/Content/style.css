@@ -680,6 +680,7 @@ h1, h2, h3, h4, h5, h6 {
   zoom: 1;
   *display: inline;
 }
+
 #fh5co-services .icon:before {
   color: #fff;
 }
@@ -968,42 +969,88 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-person {
-  border: 2px solid #f2f2f2;
-  padding: 80px 30px 30px 30px;
-  float: left;
-  width: 100%;
-  position: relative;
+    border: 2px solid #f2f2f2;
+    padding: 80px 30px 30px 30px;
+    float: left;
+    width: 100%;
+    position: relative;
 }
 @media screen and (max-width: 992px) {
-  .fh5co-person {
-    margin-bottom: 3.5em;
-  }
+    .fh5co-person {
+        margin-bottom: 3.5em;
+    }
 }
 .fh5co-person figure {
-  position: absolute;
-  margin-top: -60px;
-  top: 0;
-  left: 50%;
-  margin-left: -60px;
-  display: block;
-  margin-bottom: 50px;
+    position: absolute;
+    margin-top: -60px;
+    top: 0;
+    left: 50%;
+    margin-left: -60px;
+    display: block;
+    margin-bottom: 50px;
 }
 .fh5co-person figure img {
-  width: 120px;
-  border: 2px solid #f2f2f2;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+    width: 120px;
+    border: 2px solid #f2f2f2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
 }
 .fh5co-person h3 {
   margin-bottom: 0px;
 }
 .fh5co-person .fh5co-position {
-  color: #b3b3b3;
-  display: block;
-  margin-bottom: 20px;
+    color: #b3b3b3;
+    display: block;
+    margin-bottom: 20px;
 }
+
+
+.fh5co-about {
+    border: 2px solid #f2f2f2;
+    padding: 80px 30px 30px 30px;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 992px) {
+    .fh5co-about {
+        margin-bottom: 3.5em;
+    }
+}
+
+.fh5co-about figure {
+    position: absolute;
+    margin-top: -60px;
+    top: 0;
+    left: 50%;
+    margin-left: -60px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.fh5co-about figure img {
+    width: 120px;
+    border: 2px solid #f2f2f2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.fh5co-about h3 {
+    margin-bottom: 0px;
+}
+
+.fh5co-about .fh5co-position {
+    color: #b3b3b3;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
 
 .form-control {
   box-shadow: none;
